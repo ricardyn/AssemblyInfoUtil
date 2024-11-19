@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyInfoUtil", "AssemblyInfoUtil.csproj", "{DABAA370-A00D-4FCD-9F32-DEEE7C00AF08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DABAA370-A00D-4FCD-9F32-DEEE7C00AF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABAA370-A00D-4FCD-9F32-DEEE7C00AF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABAA370-A00D-4FCD-9F32-DEEE7C00AF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABAA370-A00D-4FCD-9F32-DEEE7C00AF08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
