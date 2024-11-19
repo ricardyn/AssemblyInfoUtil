@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
+using System;
+using System.IO;
 using System.Text;
 
 int incParamNum = 0;
@@ -46,6 +48,7 @@ if (!File.Exists(fileName))
     return;
 }
 
+
 System.Console.Write("Processing \"" + fileName + "\"...");
 StreamReader reader = new(fileName);
 StreamWriter writer = new(fileName + ".out");
@@ -63,8 +66,6 @@ writer.Close();
 File.Delete(fileName);
 File.Move(fileName + ".out", fileName);
 System.Console.WriteLine("Done!");
-
-
 
 string ProcessLine(string ln)
 {
